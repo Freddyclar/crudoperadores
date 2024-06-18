@@ -21,7 +21,7 @@ connection.connect((err) => {
 // Crea la tabla 'operadores'
 const createTableQuery = `
   CREATE TABLE IF NOT EXISTS operadores (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
     nombres VARCHAR(50) NOT NULL,
     apellidos VARCHAR(50) NOT NULL,
     telefono VARCHAR(15) NOT NULL,
